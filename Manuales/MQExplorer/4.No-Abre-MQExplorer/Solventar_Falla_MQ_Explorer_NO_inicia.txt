@@ -1,0 +1,14 @@
+Buenas.
+
+Compartos con ustedes como se solventa la Falla de MQ Explorer cuando no inicia por fallas con el Workspace:
+
+•	Ubicar primero en donde está la instalación del MQ Explorer. Pueden ubicar el icono que ejecuta el MQ y dar click derecho  sobre el icono -> propiedades y ver el campo “Iniciar en:”
+•	En este ejemplo indica que está en "C:\Program Files\IBM\WebSphere MQ Explorer", entonces ir hasta esa ruta y se meten en la carpeta “Configuration”, La ruta a ingresar será como la siguiente “C:\Program Files\IBM\WebSphere MQ Explorer\configuration”
+•	En la ruta “C:\Program Files\IBM\WebSphere MQ Explorer\configuration” encontraran un archivo llamado “config.ini” deben renombrarlo.
+•	Copiar en la ruta “C:\Program Files\IBM\WebSphere MQ Explorer\configuration” el archivo “config.ini” que se adjunta en este correo.
+•	Por ultimo debe asegurar que en la siguiente ruta “C:\Users\Public\Documents” no exista ninguna carpeta de IBM y de existir debe renombrarla.
+•	Ya con esto levanta el MQ Explorer, eso si pierde toda la configuración que tenía previa, pero anexo la configuración de MQ Explorer que tranquilamente puede Importarla y tendrá las configuraciones de MQ FTE y MQ MFT de Naiguatá. 
+
+NOTA: SI anteriormente ya habían realizado este Troubleshooting debe invertir las rutas de directorio y editar el archivo “config.ini”
+
+Atte.
