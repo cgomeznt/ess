@@ -68,6 +68,7 @@ Pulsamos 1, para aceptar la licencia::
 
 
 6.‐ Solo instalamos los siguientes componentes::
+
 	MQSeriesRuntime-9.1.0-0
 	MQSeriesJRE-9.1.0-0
 	MQSeriesJava-9.1.0-0  
